@@ -1,7 +1,7 @@
 import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
-import Register from './components/Auth/Register';
-import WeatherDashboard from './components/Dashboard/WeatherDashboard';
-import Login from './components/Auth/Login';
+import Register from './pages/Auth/Register';
+import WeatherDashboard from './pages/Dashboard/WeatherDashboard';
+import Login from './pages/Auth/Login';
 
 function App() {
   return (
