@@ -2,9 +2,9 @@ const ForecastCard = ({ forecastData }) => {
   return (
     <>
       <div className="flex flex-col gap-2">
-        <h2 className="text-xl font-semibold text-green-600">{forecastData.location.name} Weather forecast</h2>
+        <h2 className="text-xl font-semibold text-green-600 text-center">{forecastData.location.name} Weather forecast</h2>
         {forecastData?.forecast.forecastday.map((day) => (
-              <div  key={day.date} className="flex border border-blue-500 items-center gap-2">
+              <div  key={day.date} className="flex border border-green-500 items-center gap-2 p-2">
                 <div className="text-center">
                   <p className="text-sm dark:text-gray-600">{day.date}</p>
                 </div>
